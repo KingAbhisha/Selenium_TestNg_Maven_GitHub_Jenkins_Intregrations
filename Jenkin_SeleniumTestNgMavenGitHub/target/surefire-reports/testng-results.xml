@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-06T17:26:08 IST" name="Suite" finished-at="2024-11-06T17:26:41 IST" duration-ms="32971">
+    <groups>
+    </groups>
+    <test started-at="2024-11-06T17:26:08 IST" name="Test" finished-at="2024-11-06T17:26:41 IST" duration-ms="32971">
+      <class name="Selenium.JenkinsTestNg.DemoLoginOrangeHRM">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Selenium.JenkinsTestNg.DemoLoginOrangeHRM@35ef1869]" started-at="2024-11-06T17:26:08 IST" name="setup" finished-at="2024-11-06T17:26:18 IST" duration-ms="10322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DemoTC01()[pri:0, instance:Selenium.JenkinsTestNg.DemoLoginOrangeHRM@35ef1869]" started-at="2024-11-06T17:26:18 IST" name="DemoTC01" finished-at="2024-11-06T17:26:18 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoTC01 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.JenkinsTestNg.DemoLoginOrangeHRM@35ef1869]" started-at="2024-11-06T17:26:18 IST" name="tearDown" finished-at="2024-11-06T17:26:19 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Selenium.JenkinsTestNg.DemoLoginOrangeHRM@35ef1869]" started-at="2024-11-06T17:26:19 IST" name="setup" finished-at="2024-11-06T17:26:27 IST" duration-ms="8878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DemoTC02()[pri:0, instance:Selenium.JenkinsTestNg.DemoLoginOrangeHRM@35ef1869]" started-at="2024-11-06T17:26:27 IST" name="DemoTC02" finished-at="2024-11-06T17:26:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoTC02 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.JenkinsTestNg.DemoLoginOrangeHRM@35ef1869]" started-at="2024-11-06T17:26:27 IST" name="tearDown" finished-at="2024-11-06T17:26:28 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Selenium.JenkinsTestNg.DemoLoginOrangeHRM@35ef1869]" started-at="2024-11-06T17:26:28 IST" name="setup" finished-at="2024-11-06T17:26:36 IST" duration-ms="8893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="demoLogin()[pri:0, instance:Selenium.JenkinsTestNg.DemoLoginOrangeHRM@35ef1869]" started-at="2024-11-06T17:26:36 IST" name="demoLogin" finished-at="2024-11-06T17:26:41 IST" duration-ms="4311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.JenkinsTestNg.DemoLoginOrangeHRM@35ef1869]" started-at="2024-11-06T17:26:41 IST" name="tearDown" finished-at="2024-11-06T17:26:41 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Selenium.JenkinsTestNg.DemoLoginOrangeHRM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

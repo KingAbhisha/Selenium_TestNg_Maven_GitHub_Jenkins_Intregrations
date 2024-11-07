@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-06T12:01:01 IST" name="Suite" finished-at="2024-11-06T12:01:10 IST" duration-ms="9178">
+    <groups>
+    </groups>
+    <test started-at="2024-11-06T12:01:01 IST" name="Test" finished-at="2024-11-06T12:01:10 IST" duration-ms="9178">
+      <class name="Selenium.JenkinsTestNg.DemoLoginOrangeHRM">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Selenium.JenkinsTestNg.DemoLoginOrangeHRM@5524cca1]" started-at="2024-11-06T12:01:01 IST" name="setup" finished-at="2024-11-06T12:01:07 IST" duration-ms="6572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="demoLogin()[pri:0, instance:Selenium.JenkinsTestNg.DemoLoginOrangeHRM@5524cca1]" started-at="2024-11-06T12:01:07 IST" name="demoLogin" finished-at="2024-11-06T12:01:10 IST" duration-ms="2398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.JenkinsTestNg.DemoLoginOrangeHRM@5524cca1]" started-at="2024-11-06T12:01:10 IST" name="tearDown" finished-at="2024-11-06T12:01:10 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Selenium.JenkinsTestNg.DemoLoginOrangeHRM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
