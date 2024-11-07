@@ -1,5 +1,8 @@
 package Selenium.JenkinsTestNg;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
@@ -38,10 +41,25 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get(System.getProperty("url"));
+		readProperty();
 	}
 
 	@AfterMethod
 	public void tearDown() {
 		driver.close();
 	}
+
+	public void readProperty() {
+		try {
+			properties = new Properties();
+			FileInputStream fileInputStream = new FileInputStream(
+					System.getProperty("user.dir") + "\\Configuration\\config.properties");
+			properties.load(fileInputStream);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
 }
